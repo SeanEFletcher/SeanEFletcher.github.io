@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: posts
 title: "Test-Post with Jonny"
 date: 2020-12-15
 ---
