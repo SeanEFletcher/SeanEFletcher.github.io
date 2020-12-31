@@ -4,3 +4,21 @@ title: Haiku Generator
 ---
 
 <p>This is where I'm going to put a button that will link to my Haiku Generator. I built it using Python3</p>
+
+<p>testing testing</p>
+
+<script>
+// Replace ./data.json with your JSON feed
+fetch("https://h5d484s0ib.execute-api.us-east-2.amazonaws.com/Haiku_Generator")
+  .then((response) => {
+    return response.json()
+  })
+  .then((data) => {
+    // Work with JSON data here
+    alert(data)
+  })
+  .catch((err) => {
+    alert("no Haiku for you!")
+  })
+
+</script>
