@@ -1,15 +1,15 @@
-p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+body {
+    margin: 60px auto;
+    width: 70%;
+    background-color: #c2b280;
 }
 
 .intro {
-    background-color: burlywood;
+    background-color: #c2b280;
 }
 
 .propogation {
-    background-image: none;
-    /* looking for a pic light in color and very zoomed in */
-
     height: 500px;
     width: auto;
 
@@ -18,14 +18,8 @@ p {
 .propagation.proplist {
     background-color: whitesmoke;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
-body {
-    margin: 60px auto;
-    width: 70%;
-    background-color: #c2b280;
-}
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -40,6 +34,11 @@ a {
     text-decoration: none;
     color: #999;
 }
+
+body a {
+    color: forestgreen;
+}
+
 a:hover {
     text-decoration: underline;
 }
@@ -47,6 +46,11 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+
+h1, h2, h3, h4, h5, h6, aside {
+    color: 	#D2691E;
+}
+
 p {
     font-size: 1.5em;
     line-height: 1.4em;
@@ -66,7 +70,10 @@ footer {
     color: #d5d5d5;
     width: 300px;
     height: auto;
+}
 
+section .intro {
+    text-align: center;
 }
 
 .sedums {
