@@ -24,6 +24,7 @@ p {
 body {
     margin: 60px auto;
     width: 70%;
+    background-color: #c2b280;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -56,18 +57,16 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
-
 .proplist {
     height: 500px;
     width: 700px;
+}
+
+.proplist p {
+    color: #d5d5d5;
+    width: 300px;
+    height: auto;
+
 }
 
 .sedums {
