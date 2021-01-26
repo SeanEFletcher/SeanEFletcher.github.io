@@ -49,5 +49,5 @@ body {
     height: 280px;
     color: black;
     position: absolute;
-    z-index: 5;
+    z-index: 1;
 }
