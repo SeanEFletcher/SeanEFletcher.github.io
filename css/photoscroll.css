@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+body {
+    background-color: ivory;
+}
+
+.fixed-frame {
+    background-color: burlywood;
+    margin: 10%;
+    position: fixed;
+    width: 80%;
+
+}
+
+.pic {
+    margin: auto;
+    width: 500px;
+    height: 280px;
+}
