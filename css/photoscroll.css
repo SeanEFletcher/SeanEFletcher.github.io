@@ -52,5 +52,5 @@ body {
     height: 280px;
     color: black;
     position: absolute;
-    z-index: 2;
+    z-index: 4;
 }
