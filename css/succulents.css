@@ -1,4 +1,9 @@
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 60px auto;
     width: 70%;
@@ -9,15 +14,27 @@ body {
     background-color: #c2b280;
 }
 
+.rhetorical {
+    color: rgb(15, 95, 15);
+    border-top: 2px dotted grey;
+    border-bottom: 2px dotted grey;
+    width: 400px;
+    margin: 20px auto;
+}
+
 .propogation {
     height: 500px;
     width: auto;
+}
 
+.propogation p {
+    padding: 10px;
 }
 
 .propagation.proplist {
     background-color: whitesmoke;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: scroll;
 }
 
 nav ul, footer ul {
@@ -49,6 +66,8 @@ h1 {
 
 h1, h2, h3, h4, h5, h6, aside {
     color: 	#D2691E;
+    border-top: 1px solid #D2691E;
+    border-bottom:chocolate solid 1px;
 }
 
 p {
