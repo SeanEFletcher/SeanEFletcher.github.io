@@ -35,8 +35,6 @@ footer {
 }
 body {
     background-color: ivory;
-    position: relative;
-    z-index: 1;
 }
 .fixed-frame {
     background-color: burlywood;
