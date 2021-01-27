@@ -9,7 +9,6 @@ nav ul, footer ul {
     font-weight: bold;
 }
 nav ul li, footer ul li {
-    display: block;
     float: left;
 }
 a {
@@ -50,5 +49,5 @@ body {
     height: 280px;
     color: black;
     position: relative;
-    z-index: 4;
+    z-index: 1;
 }
