@@ -39,10 +39,11 @@ body {
 }
 .fixed-frame {
     background-color: burlywood;
+    border: 2px olive solid;
     margin: 20%;
     position: fixed;
-    width: 60%;
-    height: 10%;
+    width: 600px;
+    height: 400px;
     z-index: 3;
 }
 .pic {
