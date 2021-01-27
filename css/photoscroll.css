@@ -38,10 +38,10 @@ body {
 }
 .fixed-frame {
     background-color: burlywood;
-    margin: 10%;
+    margin: 20%;
     position: fixed;
     width: 80%;
-    height: 80%;
+    height: 60%;
     z-index: 3;
 }
 .pic {
