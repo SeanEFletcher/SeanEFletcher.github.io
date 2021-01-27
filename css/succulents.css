@@ -5,17 +5,13 @@
 }
 
 body {
-    margin: 60px auto;
-    width: 70%;
     background-color: #c2b280;
+    margin: 10px 20%;
 }
 
-.intro {
-    background-color: #c2b280;
-}
-
-h1 {
-    width: fit-content;
+h1 .title {
+    color: chocolate;
+    width: 400px;
     margin: auto;
     display: block;
     position: relative;
@@ -24,7 +20,7 @@ h1 {
     margin: 20px;
 }
 
-.rhetorical {
+h1 .rhetorical {
     color: rgb(15, 95, 15);
     border-top: 2px dotted grey;
     border-bottom: 2px dotted grey;
@@ -78,7 +74,7 @@ nav ul, footer ul {
     background-color: bisque;
 }
 nav ul li, footer ul li {
-    display: inline;
+    float: left;
     margin-right: 20px;
 }
 a {
