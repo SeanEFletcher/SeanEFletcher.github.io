@@ -16,8 +16,10 @@ body {
 
 h1 {
     width: fit-content;
-    text-align: center;
+    margin: auto;
     display: block;
+    position: relative;
+    top: 30px;
     padding: 5px;
     margin: 20px;
 }
@@ -73,6 +75,7 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
     position: fixed;
+    background-color: bisque;
 }
 nav ul li, footer ul li {
     display: inline;
