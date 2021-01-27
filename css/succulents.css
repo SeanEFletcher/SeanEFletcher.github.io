@@ -70,7 +70,6 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
-    position: fixed;
     background-color: bisque;
 }
 nav ul li, footer ul li {
