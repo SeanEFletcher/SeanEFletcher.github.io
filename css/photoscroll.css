@@ -4,10 +4,11 @@
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+    padding: 15px;
     list-style: none;
     font-weight: bold;
     position: fixed;
+    text-align: center;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -40,8 +41,8 @@ body {
     background-color: burlywood;
     margin: 20%;
     position: fixed;
-    width: 80%;
-    height: 60%;
+    width: 60%;
+    height: 10%;
     z-index: 3;
 }
 .pic {
@@ -49,6 +50,6 @@ body {
     width: 500px;
     height: 280px;
     color: black;
-    position: relative;
+    position: absolute;
     z-index: 4;
 }
