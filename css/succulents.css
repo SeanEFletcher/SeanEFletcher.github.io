@@ -14,6 +14,13 @@ body {
     background-color: #c2b280;
 }
 
+h1 {
+    text-align: center;
+    display: block;
+    padding: 5px;
+    margin: 20px;
+}
+
 .rhetorical {
     color: rgb(15, 95, 15);
     border-top: 2px dotted grey;
@@ -64,6 +71,7 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    position: fixed;
 }
 nav ul li, footer ul li {
     display: inline;
