@@ -17,13 +17,30 @@ a:hover {
 body {
     background-color: ivory;
 }
-.fixed-frame {
+.frame {
     background-color: burlywood;
-    border: 2px olive solid;
     margin: auto;
     position: fixed;
-    width: 800px;
-    height:600px;
+}
+#top {
+    width: auto;
+    height: 15%;
+    top: 20px;
+}
+#bottom {
+    width: auto;
+    height: 15%;
+    bottom: 20px;
+}
+#right {
+    width: 15%;
+    height: auto;
+    right: 20px;
+}
+#left {
+    width: 15%;
+    height: auto;
+    left: 20px;
 }
 .pic {
     margin: auto;
