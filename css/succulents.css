@@ -3,12 +3,10 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     background-color: #c2b280;
     margin: 10px 20%;
 }
-
 h1 .title {
     color: chocolate;
     width: 400px;
@@ -19,7 +17,6 @@ h1 .title {
     padding: 5px;
     margin: 20px;
 }
-
 h1 .rhetorical {
     color: rgb(15, 95, 15);
     border-top: 2px dotted grey;
@@ -27,44 +24,6 @@ h1 .rhetorical {
     width: 400px;
     margin: 20px auto;
 }
-
-.propogation {
-    height: 500px;
-    width: auto;
-}
-
-.propogation p {
-    padding: 10px;
-}
-
-.propagation.proplist {
-    background-color: whitesmoke;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    overflow: scroll;
-}
-
-.proplist h5 {
-    text-align: center;
-}
-
-.proplist p, .proplist img {
-    display: inline-block;
-    height: 200px;
-    width: 300px;
-    overflow: scroll;
-}
-
-.proplist {
-    height: 500px;
-    width: 700px;
-}
-
-.proplist p {
-    color: #d5d5d5;
-    width: 300px;
-    height: auto;
-}
-
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -72,19 +31,15 @@ nav ul, footer ul {
     font-weight: bold;
     background-color: bisque;
 }
-
 nav ul li, footer ul li {
     margin-right: 20px;
 }
-
 body a {
     color: forestgreen;
 }
-
 a:hover {
     text-decoration: underline;
 }
-
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
