@@ -21,6 +21,7 @@ body {
     background-color: burlywood;
     margin: auto;
     position: fixed;
+    z-index: 2;
 }
 #top {
     width: auto;
@@ -51,4 +52,5 @@ body {
     background-color: black;
     border: 2px solid darkgray;
     position: relative;
+    z-index: 1;
 }
