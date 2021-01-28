@@ -2,18 +2,11 @@
     margin: 0px;
     padding: 0px
 }
-nav ul, footer ul {
+nav ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 15px;
     list-style: none;
     font-weight: bold;
-}
-nav ul li, footer ul li {
-    float: left;
-}
-a {
-    text-decoration: none;
-    color: #999;
 }
 a:hover {
     text-decoration: underline;
@@ -39,15 +32,14 @@ body {
     border: 2px olive solid;
     margin: 20%;
     position: fixed;
-    width: 60%;
-    height:40%;
-    z-index: 3;
+    width: 800px;
+    height:600px;
 }
 .pic {
     margin: auto;
-    width: 500px;
-    height: 280px;
+    width: 600px;
+    height: 400px;
     background-color: black;
+    border: 2px solid darkgray;
     position: relative;
-    z-index: 1;
 }
