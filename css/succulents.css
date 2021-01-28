@@ -72,13 +72,9 @@ nav ul, footer ul {
     font-weight: bold;
     background-color: bisque;
 }
+
 nav ul li, footer ul li {
-    float: left;
     margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
 }
 
 body a {
@@ -88,43 +84,8 @@ body a {
 a:hover {
     text-decoration: underline;
 }
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
 
-h1, h2, h3, h4, h5, h6, aside {
-    color: 	#D2691E;
-    border-top: 1px solid #D2691E;
-    border-bottom:chocolate solid 1px;
-}
-
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
-}
-
-section .intro {
-    text-align: center;
-}
-
-.sedums {
-    background-image: url(https://user-images.githubusercontent.com/75733067/105346043-0a005680-5bb3-11eb-9869-546c603f89d9.png);
-}
-
-.aloes {
-    background-image: url(https://user-images.githubusercontent.com/75733067/105346229-4df35b80-5bb3-11eb-83dc-cc2959166b65.png);
-}
-
-.jades {
-    background-image: url(https://user-images.githubusercontent.com/75733067/105346180-3caa4f00-5bb3-11eb-9943-b7a02ad2910a.png);
-}
-
-.christmas-cacti{
-    background-image: url(https://user-images.githubusercontent.com/75733067/105346152-3025f680-5bb3-11eb-821a-1eedbaa265d5.png);
 }
