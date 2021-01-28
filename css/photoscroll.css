@@ -5,24 +5,14 @@
 nav ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 15px;
+    margin: 20px;
     list-style: none;
     font-weight: bold;
+    position: fixed;
+    z-index: 5;
 }
 a:hover {
     text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
 }
 body {
     background-color: ivory;
@@ -30,13 +20,15 @@ body {
 .fixed-frame {
     background-color: burlywood;
     border: 2px olive solid;
-    margin: 20%;
+    margin: auto;
     position: fixed;
     width: 800px;
     height:600px;
 }
 .pic {
     margin: auto;
+    margin-top: 400px;
+    margin-bottom: 400px;
     width: 600px;
     height: 400px;
     background-color: black;
