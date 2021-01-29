@@ -21,7 +21,7 @@ body {
     background-color: burlywood;
     margin: auto;
     position: fixed;
-    z-index: 2;
+    z-index: 6;
 }
 #top {
     width: auto;
