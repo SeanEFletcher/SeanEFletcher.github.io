@@ -35,7 +35,7 @@ const addResponseToResponseField = (res) => {
       return;
     }
 
-    responseField.innerHTML = `<p>This is what you typed into the box::</p><ol>${inputField}</ol>`;
+    responseField.innerHTML = `<p>This is what you typed into the box::</p><ol>${inputString}</ol>`;
     return;
   };
 
