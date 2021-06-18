@@ -2,7 +2,7 @@
 layout: default
 title: Syllable Counter
 ---
-<p> For now, what you enter will show up in the response field... sven ate a pierogi</p><br>
+<p> For now, what you enter will show up in the response field... sven ate a bagel</p><br>
 <h2 id="prompt">Enter a word or phrase here:</h2>
 
       <form id="form" autocomplete="off">
@@ -59,11 +59,11 @@ const addResponseToResponseField = (res) => {
   };
 */
 
-const displaySuggestions02 = () => {
-    document.getElementById("responseField").innerHTML = `<p>This is what you typed into the box::</p><ol>${inputString}</ol>`;
+const displaySuggestions02 = (theThing) => {
+    document.getElementById("responseField").innerHTML = `<p>This is what you typed into the box::</p><ol>${theThing}</ol>`;
     return;
 }
 // calling the function
 
-submit.addEventListener('click', displaySuggestions02());
+submit.addEventListener('click', displaySuggestions02(inputString));
 </script>
