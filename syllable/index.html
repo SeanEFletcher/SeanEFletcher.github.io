@@ -2,11 +2,11 @@
 layout: default
 title: Syllable Counter
 ---
-<p> For now, what you enter will show up in the response field... sven ate two turds</p><br>
+<p> For now, what you enter will show up in the response field... duck duck</p><br>
 <h2 id="prompt">Enter a word or phrase here:</h2>
 
       <form id="form" autocomplete="off">
-        <input type="text" id="input" value="">
+        <input type="text" id="input01" value="">
         <button id="submit">SUBMIT</button>
       </form><br>
 
@@ -15,18 +15,20 @@ title: Syllable Counter
       </div><br>
 
 <script>
-
-const inputString = document.querySelector('#input');
-const responseField = document.querySelector('#responseField');
-
 const printPoop = () => {
       console.log('poop');
 };
 const displaySuggestions02 = () => {
-    document.getElementById("responseField").innerHTML = `<p>This is what you typed into the box::</p><ol>${inputString.value}</ol>`;
-    return;
+      let inputString = document.getElementById('input01').value
+      if(!inputString) {
+            console.log('poop');
+            return;
+      } else {
+            document.getElementById("responseField").innerHTML = `<p>This is what you typed into the box::</p><ol>${inputString}</ol>`;
+            return;
+      }
 };
 // calling the function
 
-document.getElementById('submit').addEventListener('click', printPoop());
+document.getElementById('submit').addEventListener('click', displaySuggestions02());
 </script>
