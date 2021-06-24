@@ -2,7 +2,7 @@
 layout: default
 title: Syllable Counter
 ---
-<p> For now, what you enter will show up in the response field... duck duck owl</p><br>
+<p> For now, what you enter will show up in the response field... duck duck owl owl</p><br>
 <h2 id="prompt">Enter a word or phrase here:</h2>
 
       <form id="form" autocomplete="off">
@@ -23,7 +23,9 @@ const printPoop = () => {
 const displaySuggestions02 = () => {
       let inputString = document.getElementById('input01').value;
       if(!inputString) {
-            console.log('poop');
+            printPoop();
+            console.log('no input');
+            printPoop();
             return;
       } else {
             document.getElementById("responseField").innerHTML = `<p>This is what you typed into the box::</p><ol>${inputString}</ol>`;
@@ -36,5 +38,5 @@ const testFunction01 = () => {
       printPoop();
 }
 
-document.getElementById('test01').addEventListener('click', testFunction01);
+document.getElementById('test01').addEventListener('click', displaySuggestions02);
 </script>
