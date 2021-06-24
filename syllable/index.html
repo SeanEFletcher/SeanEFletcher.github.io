@@ -20,7 +20,16 @@ title: Syllable Counter
 const printPoop = () => {
       console.log('poop');
 };
-const displaySuggestions02 = () => {
+
+const displaySuggestions = () => {
+      event.preventDefault();
+      while(responseField.firstChild){
+            responseField.removeChild(responseField.firstChild);
+      };
+      addToResponseField();
+};
+      
+const addToResponseField = () => {
       let inputString = document.getElementById('input01').value;
       if(!inputString) {
             printPoop();
@@ -36,7 +45,7 @@ const testFunction01 = () => {
       printPoop();
       document.getElementById("responseField").innerHTML = 'Hello world';
       printPoop();
-}
+};
 
-document.getElementById('submitButton').addEventListener('click', displaySuggestions02);
+document.getElementById('submitButton').addEventListener('click', displaySuggestions);
 </script>
