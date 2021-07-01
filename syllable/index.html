@@ -2,7 +2,7 @@
 layout: default
 title: Syllable Counter
 ---
-<p> For now, what you enter will show up in the response field... testingtesting</p><br>
+<p> For now, what you enter will show up in the response field... wha wha wha</p><br>
 <h2 id="prompt">Enter a word or phrase here:</h2>
 
       <form id="form" autocomplete="off">
@@ -17,7 +17,7 @@ title: Syllable Counter
       </div><br>
 
 <script>
-<!-- building the GET request -->
+/* building the GET request */
 const getTheCount = () => {
       const url = 'https://pzo2bxjyp4.execute-api.us-east-2.amazonaws.com/SyllableStage01';
       const inputString01 = document.getElementById('input01').value;
@@ -33,7 +33,7 @@ const getTheCount = () => {
       xhr.open('GET', endpoint);
       xhr.send();
       }
-<!-- end of 'building the GET request' -->
+/* end of 'building the GET request' */
       
 const printPoop = () => {
       console.log('poop');
