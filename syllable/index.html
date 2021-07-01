@@ -2,7 +2,7 @@
 layout: default
 title: Syllable Counter
 ---
-<p> For now, what you enter will show up in the response field... blah bleh blob bloob</p><br>
+<p> For now, what you enter will show up in the response field... let's try this</p><br>
 <h2 id="prompt">Enter a word or phrase here:</h2>
 
       <form id="form" autocomplete="off">
@@ -19,7 +19,7 @@ title: Syllable Counter
 <script>
 /* building the GET request */
 const getTheCount = () => {
-      const url = 'https://pzo2bxjyp4.execute-api.us-east-2.amazonaws.com/SyllableCounterStage02';
+      const url = 'https://pzo2bxjyp4.execute-api.us-east-2.amazonaws.com/SyllableCounterStage02/Syllable_Counter';
       const inputString01 = document.getElementById('input01').value;
       const queryParam = 'theInputString=';
       const endpoint = url + '?' + queryParam + inputString01;
