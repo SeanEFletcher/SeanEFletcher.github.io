@@ -2,7 +2,7 @@
 layout: default
 title: Syllable Counter
 ---
-<p> For now, what you enter will show up in the response field... let's try this</p><br>
+<p> For now, what you enter will show up in the response field... crossing my fucking fingers here...</p><br>
 <h2 id="prompt">Enter a word or phrase here:</h2>
 
       <form id="form" autocomplete="off">
@@ -52,13 +52,9 @@ const addToResponseField = (response01) => {
             console.log(response01.status);
             return;
       } else {
-            printPoop();
-            console.log(response01);
-            printPoop();
-            /*
             let inputString = document.getElementById('input01').value;
-            document.getElementById("responseField").innerHTML = `<p>This is what you typed into the box::</p><ol>${inputString}</ol>`;
-            return; */
+            document.getElementById("responseField").innerHTML = `<p>What you entered - ${inputString} - has ${response01} syllables.</p>`;
+            return;
       }
 };
 const testFunction01 = () => {
