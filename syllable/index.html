@@ -2,7 +2,7 @@
 layout: default
 title: Syllable Counter
 ---
-<p> Welcome to my syllable counter. Please give it a try. punky punk</p><br>
+<p> Welcome to my syllable counter. Please give it a try. punky punk punk punk</p><br>
 <h2 id="prompt">Enter a word or phrase here:</h2>
 
       <form id="form" autocomplete="off">
@@ -53,8 +53,10 @@ const addToResponseField = (response01) => {
             return;
       } else {
             console.log(response01);
+            const responseString = JSON.stringify(response01);
+            console.log(responseString);
             let inputString = document.getElementById('input01').value;
-            document.getElementById("responseField").innerHTML = `<p>The word or phrase "${inputString}" has ${response01} syllables.</p>`;
+            document.getElementById("responseField").innerHTML = `<p>The word or phrase "${inputString}" has ${responseString} syllables.</p>`;
             return;
       }
 };
