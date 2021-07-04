@@ -2,7 +2,7 @@
 layout: default
 title: Syllable Counter
 ---
-<p> Welcome to my syllable counter. Please give it a try.</p><br>
+<p> Welcome to my syllable counter. Please give it a try. bleh</p><br>
 <h2 id="prompt">Enter a word or phrase here:</h2>
 
       <form id="form" autocomplete="off">
@@ -26,9 +26,9 @@ const getTheCount = () => {
       const xhr = new XMLHttpRequest();
       xhr.responseType = 'json';
       xhr.onreadystatechange = () => {
-        console.log(xhr.response);
         if (xhr.readyState === XMLHttpRequest.DONE) {
-          addToResponseField(xhr.response);
+              console.log(xhr.response);
+              addToResponseField(xhr.response);
         }
       };
       xhr.open('GET', endpoint);
