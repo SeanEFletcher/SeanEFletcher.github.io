@@ -3,6 +3,7 @@ layout: default
 title: Haiku Generator
 ---
 <p>Welcome to the world of computer generated poetry!</p>
+<p>blahblahblah</p>
 <h3 id="prompt">Please click this button to create and read a computer generated Haiku</h3>
 
       <button id="haikuButton">Haiku</button>
@@ -14,7 +15,7 @@ title: Haiku Generator
 <script>
 /* building the GET request */
 const getThePoem = () => {
-      const url = 'https://h5d484s0ib.execute-api.us-east-2.amazonaws.com/Haiku_Generator';
+      const url = 'https://h5d484s0ib.execute-api.us-east-2.amazonaws.com/stage01/Haiku_Generator';
       const endpoint = url;
       const xhr = new XMLHttpRequest();
       xhr.responseType = 'json';
