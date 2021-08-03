@@ -52,6 +52,7 @@ const addToResponseField = (response01) => {
             console.log(response01.status);
             return;
       } else {
+            console.log(response01);
             let inputString = document.getElementById('input01').value;
             document.getElementById("responseField").innerHTML = `<p>${response01}</p>`;
             return;
