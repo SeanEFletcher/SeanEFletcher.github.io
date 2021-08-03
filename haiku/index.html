@@ -43,6 +43,7 @@ const addToPoemField = (response00) => {
             console.log(response00.status);
             return;
       } else {
+            console.log(response00);
             document.getElementById("poemField").innerHTML = `<p>${response00}</p>`;
             return;
       }
