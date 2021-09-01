@@ -56,6 +56,8 @@ here down is the dropdown list for my projects tab
 }
 
 .dropdown-content {
+  text-decoration: none;
+  color: #999;
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -63,6 +65,10 @@ here down is the dropdown list for my projects tab
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
   z-index: 1;
+}
+
+.dopdown:hover {
+  text-decoration: underline;
 }
 
 .dropdown:hover .dropdown-content {
