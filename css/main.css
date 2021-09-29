@@ -80,6 +80,10 @@ here down is the dropdown list for my projects tab
 here down is me playing around with my CV page
 */
 
+.CVh2 {
+  font-size: 2em;
+}
+
 dl {
   margin-bottom: 20px;
 }
