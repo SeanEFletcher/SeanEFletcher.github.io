@@ -2,32 +2,39 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
+
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
 a {
     text-decoration: none;
     color: #999;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
+
 p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
 }
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
@@ -45,11 +52,8 @@ ul.posts li {
 .emoticon {
     font-family: sans-serif;
 }
- /* 
-here down is the dropdown list for my projects tab
-*/
 
-
+/* Dropdown menu styling */
 .dropdown {
   text-decoration: none;
   color: #999;
@@ -67,78 +71,92 @@ here down is the dropdown list for my projects tab
   z-index: 1;
 }
 
-.dopdown:hover {
-  text-decoration: underline;
-}
-
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-
- /* 
-here down is me playing around with my CV page
-*/
-
+/* CV page styling */
 .CVh2 {
-  font-size: 2em;
+  font-size: 2.4em;   /* larger than before */
+  font-weight: bold;  /* stronger emphasis */
   text-decoration: none;
-  color: #808080;
+  color: #333;        /* darker gray for better contrast */
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
 }
 
-dl {
+/* Projects */
+.project {
+  margin-bottom: 25px;
+}
+
+.project p strong {
+  font-size: 1.2em;
+  display: block;
+  margin-bottom: 0.4em;
+  color: #333;
+}
+
+.project ul {
+  margin-left: 2em;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  list-style-type: disc;
+}
+
+/* Experience section */
+.experienceItem {
   margin-bottom: 20px;
 }
 
-dt,
-dd {
-  line-height: 1.428571429;
+.experienceItem p strong {
+  font-size: 1.1em;
+  color: #333;
 }
 
-dt {
-  font-weight: bold;
+.experienceItem ul {
+  margin-left: 2em;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  list-style-type: disc;
 }
 
-dd {
-  margin-left: 0;
+/* Education section */
+.education .CVitemTitle {
+  margin-bottom: 1em;
+  font-size: 1.2em;
+  line-height: 1.5em;
 }
 
-/* OLD VERSION (commented out)
-@media (min-width: 768px) {
-  .dl-horizontal dt {
-    float: left;
-    width: 160px;
-    overflow: hidden;
-    clear: left;
-    text-align: right;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-  .dl-horizontal dd {
-    margin-left: 180px;
-  }
-  .dl-horizontal dd:before,
-  .dl-horizontal dd:after {
-    display: table;
-    content: " ";
-  }
-  .dl-horizontal dd:after {
-    clear: both;
-  }
+.education em {
+  font-style: italic;
 }
-*/
 
-/* NEW VERSION — allows project titles to wrap cleanly */
-@media (min-width: 768px) {
-  .dl-horizontal dt {
-    float: none;         /* no forced left column */
-    width: auto;         /* titles size naturally */
-    text-align: left;    /* align to the left */
-    white-space: normal; /* allow multi-line wrapping */
-    overflow: visible;   /* don’t cut content */
-    text-overflow: clip; /* no ellipsis */
-  }
-  .dl-horizontal dd {
-    margin-left: 0;      /* align descriptions under titles */
-  }
+/* Skills & Languages */
+.languages p {
+  margin-top: 0.5em;
+  margin-bottom: 0.3em;
+}
+
+.languages ul {
+  margin-left: 2em;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  list-style-type: disc;
+}
+
+/* Publications, Certifications, Career Development */
+.publications ul,
+.Certifications\/Licenses ul,
+.CareerDevelopment ul {
+  margin-left: 2em;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  list-style-type: disc;
+}
+
+.publications li,
+.Certifications\/Licenses li,
+.CareerDevelopment li {
+  margin-bottom: 0.5em;
 }
