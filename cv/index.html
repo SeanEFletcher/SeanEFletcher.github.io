@@ -2,106 +2,110 @@
 layout: default
 title: Sean's CV
 ---
-  <div class="CVstuff">
-    <br><br>
-    <h1>Sean Fletcher</h1>
-    <h3>Portland, ME</h3>
-    <hr />
-	<div>
-		
-		<p>
-		      Graduate student in Computer Science specializing in computational pathology, computer vision, and NLP. 
-		      Researcher with publications at CLEF (2023) and FMLDS (2025), focusing on deep learning, biomedical image analysis, and database systems. 
-		      Technical strengths include Python, PyTorch, SQL, and machine learning pipelines. 
-		      Former linguist and licensed ASL interpreter with extensive experience in cross-disciplinary communication, accessibility, and collaborative problem-solving. 
-    	</p>
-	</div>
-	<hr />
-    <br>
-	  
-<!-- Projects -->
-<div class="projects">
-  <h2 class="CVh2">Projects</h2>
-  <dl class="dl-horizontal">
+<div class="CVstuff">
+  <br><br>
+  <h1>Sean Fletcher</h1>
+  <h3>Portland, ME</h3>
+  <hr />
+  <div>
+    <p>
+      Graduate student in Computer Science specializing in computational pathology, computer vision, and NLP. 
+      Researcher with publications at CLEF (2023) and FMLDS (2025), focusing on deep learning, biomedical image analysis, and database systems. 
+      Technical strengths include Python, PyTorch, SQL, and machine learning pipelines. 
+      Former linguist and licensed ASL interpreter with extensive experience in cross-disciplinary communication, accessibility, and collaborative problem-solving. 
+    </p>
+  </div>
+  <hr />
+  <br>
 
-    <dt>Microscopy-Based Taxol Concentration Classification <span class="dates">2024–2025</span></dt>
-    <dd>
-      Developed and released a novel dataset of high‑resolution phase‑contrast images of C6 glioma cells exposed to multiple Taxol concentrations (Control, 20 µM, 40 µM, 100 µM) (<a href="https://arxiv.org/pdf/2508.14349">arxiv.org</a>).<br>
-      Designed a baseline model “ResAttention‑KNN,” combining a ResNet‑50 backbone with CBAM modules for refined feature extraction, followed by a k‑NN classifier in a compact 128‑dimensional embedding space.<br>
-      Achieved a peak accuracy of 75% and macro F1 score of 0.751, outperforming ResNet and CBAM variants with fully connected heads.<br>
-      Published as an open-access resource to support reproducibility and benchmarking in biomedical computer vision.
-    </dd>
+  <!-- Projects -->
+  <div class="projects">
+    <h2 class="CVh2">Projects</h2>
 
-    <dt>CLEF 2023 SimpleText — Task 1 <span class="dates">2023</span></dt>
-    <dd>
-      <a href="https://www.sheadurgin.com/simpletext2023.pdf">Publication Link</a><br>
-      Peer-reviewed conference system for multilingual information access.<br>
-      Class submission: keyword-based retrieval and web scraping.<br>
-      Publication version: neural rerankers with Reciprocal Rank Fusion.
-    </dd>
+    <div class="project">
+      <p><strong>Microscopy-Based Taxol Concentration Classification (2024–2025)</strong></p>
+      <ul>
+        <li>Developed and released a dataset of high-resolution phase-contrast images of C6 glioma cells exposed to multiple Taxol concentrations (<a href="https://arxiv.org/pdf/2508.14349">arxiv.org</a>).</li>
+        <li>Designed a ResNet-50 baseline model with CBAM modules, embedding projection, and k-NN classification.</li>
+        <li>Achieved peak accuracy of 75% and macro F1 score of 0.751, outperforming ResNet and CBAM-fully connected baselines.</li>
+      </ul>
+    </div>
 
-    <dt>arXiv Metadata Database <span class="dates">Fall 2023</span></dt>
-    <dd>
-      <a href="https://github.com/SeanEdwardFletcher/Database_Systems_F23/tree/main/Assignments/Ass03">GitHub Repo</a><br>
-      Scraped and cleaned metadata from arXiv using BeautifulSoup.<br>
-      Designed ER diagrams and implemented a normalized database in SQLite.
-    </dd>
+    <div class="project">
+      <p><strong>CLEF 2023 SimpleText — Task 1 (2023)</strong></p>
+      <ul>
+        <li><a href="https://www.sheadurgin.com/simpletext2023.pdf">Publication Link</a></li>
+        <li>Developed a multilingual retrieval system with keyword-based methods and web scraping (class version).</li>
+        <li>Extended to neural rerankers with Reciprocal Rank Fusion for publication submission.</li>
+      </ul>
+    </div>
 
-    <dt>Diabetes Prediction Pipeline <span class="dates">Fall 2023</span></dt>
-    <dd>
-      Built an end‑to‑end predictive workflow using NHANES data.<br>
-      Applied data cleaning, visualization, and feature engineering in pandas and seaborn.<br>
-      Trained and evaluated models using scikit‑learn.
-    </dd>
+    <div class="project">
+      <p><strong>arXiv Metadata Database (Fall 2023)</strong></p>
+      <ul>
+        <li><a href="https://github.com/SeanEdwardFletcher/Database_Systems_F23/tree/main/Assignments/Ass03">GitHub Repo</a></li>
+        <li>Scraped and cleaned metadata from arXiv using BeautifulSoup.</li>
+        <li>Designed ER diagrams and implemented a normalized database in SQLite.</li>
+      </ul>
+    </div>
 
-    <dt>Syllable Counter <span class="dates">2020</span></dt>
-    <dd>
-      Interactive tool to count syllables in words and phrases.<br>
-      Combined Python string methods with phonetic rules to estimate syllable counts.<br>
-      Deployed backend on AWS Lambda with a GitHub-hosted frontend.
-    </dd>
+    <div class="project">
+      <p><strong>Diabetes Prediction Pipeline (Fall 2023)</strong></p>
+      <ul>
+        <li>Built an end-to-end predictive workflow using NHANES data.</li>
+        <li>Applied data cleaning, visualization, and feature engineering in pandas and seaborn.</li>
+        <li>Trained and evaluated models using scikit-learn.</li>
+      </ul>
+    </div>
 
-    <dt>Haiku Generator <span class="dates">2020</span></dt>
-    <dd>
-      Automated poetry generator that composes haikus from user-provided prompts.<br>
-      Integrated Datamuse API, the Syllable Counter, and hard coded English syntax rules.<br>
-      Deployed with AWS Lambda backend and GitHub-hosted frontend.
-    </dd>
+    <div class="project">
+      <p><strong>Syllable Counter (2020)</strong></p>
+      <ul>
+        <li>Interactive tool to count syllables in words and phrases.</li>
+        <li>Combined Python string methods with phonetic rules to estimate syllable counts.</li>
+        <li>Deployed backend on AWS Lambda with a GitHub-hosted frontend.</li>
+      </ul>
+    </div>
 
-  </dl>
-</div>
+    <div class="project">
+      <p><strong>Haiku Generator (2020)</strong></p>
+      <ul>
+        <li>Automated poetry generator that composes haikus from user-provided prompts.</li>
+        <li>Integrated Datamuse API, the Syllable Counter, and hard coded English syntax rules.</li>
+        <li>Deployed with AWS Lambda backend and GitHub-hosted frontend.</li>
+      </ul>
+    </div>
+  </div>
 
-	  
-<div class="education">
-  <h2 class="CVh2">Education</h2>
+  <div class="education">
+    <h2 class="CVh2">Education</h2>
 
-  <p class="CVitemTitle">
-    <strong>M.S. Computer Science</strong>, University of Southern Maine, <span class="dates">Expected 2026</span><br>
-    GPA: 3.8 | Focus: Deep Learning, NLP, Computer Vision, Database Systems
-	Relevant Coursework: Deep Learning (neural networks, embeddings, optimization), Natural Language Processing (text mining, transformers), Database Systems (SQL, ER design, data modeling), Machine Learning (supervised/unsupervised learning, feature engineering, model evaluation), Computer Vision (image classification, attention models, interpretability)<br>
-Data Science Skills: Data preprocessing, exploratory data analysis (EDA), statistical modeling, data visualization, reproducible pipelines
-  </p>
+    <p class="CVitemTitle">
+      <strong>M.S. Computer Science</strong>, University of Southern Maine, <span class="dates">Expected 2026</span><br>
+      GPA: 3.8 | Focus: Deep Learning, NLP, Computer Vision, Database Systems<br>
+      Relevant Coursework: Deep Learning (neural networks, embeddings, optimization), Natural Language Processing (text mining, transformers), Database Systems (SQL, ER design, data modeling), Machine Learning (supervised/unsupervised learning, feature engineering, model evaluation), Computer Vision (image classification, attention models, interpretability)<br>
+      Data Science Skills: Data preprocessing, exploratory data analysis (EDA), statistical modeling, data visualization, reproducible pipelines
+    </p>
 
-  <p class="CVitemTitle">
-    <strong>B.A. Linguistics with Honors</strong>, University of Southern Maine, <span class="dates">2014</span><br>
-    Minors: Spanish, Deaf Studies | GPA: 3.75
-  </p>
+    <p class="CVitemTitle">
+      <strong>B.A. Linguistics with Honors</strong>, University of Southern Maine, <span class="dates">2014</span><br>
+      Minors: Spanish, Deaf Studies | GPA: 3.75
+    </p>
 
-  <p class="CVitemTitle">
-    <strong>Additional Coursework</strong><br>
-    <em>Data Structures</em>, University of Southern Maine, <span class="dates">Spring 2022</span> — Grade: A
-  </p>
+    <p class="CVitemTitle">
+      <strong>Additional Coursework</strong><br>
+      <em>Data Structures</em>, University of Southern Maine, <span class="dates">Spring 2022</span> — Grade: A
+    </p>
 
-  <p class="CVitemTitle">
-    <strong>Self-Directed Study</strong>, Codecademy, StackOverflow, <span class="dates">2019 – Present</span><br>
-    Independent learning in Python, JavaScript, HTML/CSS, and software development practices
-  </p>
-</div>
+    <p class="CVitemTitle">
+      <strong>Self-Directed Study</strong>, Codecademy, StackOverflow, <span class="dates">2019 – Present</span><br>
+      Independent learning in Python, JavaScript, HTML/CSS, and software development practices
+    </p>
+  </div>
 
+  <br>
 
-    <br>
-
-	  <!-- Publications -->
+  <!-- Publications -->
   <div class="publications">
     <h2 class="CVh2">Publications</h2>
     <ul>
@@ -118,134 +122,129 @@ Data Science Skills: Data preprocessing, exploratory data analysis (EDA), statis
   </div>
   <br>
 
-	<!-- Experience -->
-<div class="experience">
-  <h2 class="CVh2">Experience</h2>
+  <!-- Experience -->
+  <div class="experience">
+    <h2 class="CVh2">Experience</h2>
 
-  <div class="experienceItem">
-    <p class="CVitemTitle"><strong>Graduate Researcher</strong>, University of Southern Maine, <span class="dates">2023 – Present</span></p>
-    <ul>
-      <li>Conduct research in computational pathology, applying deep learning and computer vision to microscopy datasets.</li>
-      <li>Co-authored peer-reviewed publications at CLEF 2023 and FMLDS 2025, focusing on dataset creation, neural architectures, and model interpretability.</li>
-      <li>Developed reproducible pipelines in PyTorch, integrated CBAM modules into CNNs, and evaluated models with embedding-based metrics.</li>
-    </ul>
-  </div>
-
-  <div class="experienceItem">
-    <p class="CVitemTitle"><strong>Stay-at-Home Parent</strong>, Fletcher/Nghiem Family, <span class="dates">October 2020 – Present</span></p>
-    <ul>
-      <li>Balanced caregiving responsibilities with graduate-level coursework and research productivity.</li>
-      <li>Built strong organizational, multitasking, and systems-level time management skills applicable to academic and professional projects.</li>
-    </ul>
-  </div>
-
-  <div class="experienceItem">
-    <p class="CVitemTitle"><strong>Staff Interpreter</strong>, Pine Tree Society Interpreting Services, <span class="dates">March 2017 – October 2020</span></p>
-    <ul>
-      <li>Facilitated communication across diverse professional, medical, and educational contexts using accessible and jargon-free language.</li>
-      <li>Designed and delivered workshops preparing interpreters for national certification exams.</li>
-      <li>Collaborated with teams in high-stakes, multi-stage interpreting assignments, including medical and surgical settings.</li>
-    </ul>
-  </div>
-
-  <div class="experienceItem">
-    <p class="CVitemTitle"><strong>Freelance American Sign Language Interpreter</strong>, <span class="dates">July 2015 – March 2017</span></p>
-    <ul>
-      <li>Contracted with multiple agencies across Maine to interpret in varied community and professional settings.</li>
-      <li>Maintained compliance with the NAD-RID Code of Professional Conduct.</li>
-    </ul>
-  </div>
-
-  <div class="experienceItem">
-    <p class="CVitemTitle"><strong>Recording Secretary</strong>, Maine Registry of Interpreters for the Deaf, <span class="dates">July 2015 – July 2017</span></p>
-    <ul>
-      <li>Managed organizational information systems using G Suite tools; provided training for diverse board members.</li>
-      <li>Contributed to workshop planning, offering continuing education for the interpreting and Deaf communities.</li>
-    </ul>
-  </div>
-
-<div class="experienceItem">
-<p class=\"CVitemTitle\"><strong>Disability Rights Advocate</strong>, Disability Rights Maine Deaf Services, <span class=\"dates\">April 2016 – June 2016</span></p>
-<ul>
-<li>Temporary role covering for an advocate on maternity leave; supported Deaf clients facing discrimination and systemic barriers in employment and social services.</li>
-</ul>
-</div>
-
-  <div class="experienceItem">
-    <p class="CVitemTitle"><strong>Direct Support Professional</strong>, Goodwill Industries NNE, <span class="dates">July 2014 – November 2016</span></p>
-    <ul>
-      <li>Supported daily living and personal development for Deaf adults with intellectual disabilities.</li>
-    </ul>
-  </div>
-
-  <div class="experienceItem">
-    <p class="CVitemTitle"><strong>Certified Tutor</strong>, University of Southern Maine, <span class="dates">January 2012 – May 2014</span></p>
-    <ul>
-      <li>Tutored English and Linguistics for multilingual students, refugees, and international scholars.</li>
-    </ul>
-  </div>
-</div>
-<br>
-
-	    
-    <!--
--->
-
-<!-- Languages -->
-<div class="languages">
-<h2 class=\"CVh2\">Skills & Languages</h2>
-<p>Proficient in programming, data science tools, and multilingual communication.</p>
-<br>
-<p><strong>Programming & Data</strong></p>
-<ul>
-<li>Python — Pandas, NumPy, PyTorch, scikit-learn, Matplotlib, Seaborn</li>
-<li>SQL & SQLite — schema design, queries, optimization</li>
-<li>Java — object-oriented programming and algorithms</li>
-<li>JavaScript, HTML/CSS — web development basics</li>
-<li>Regex, Bash — automation, scripting, data preprocessing</li>
-<li>Git/GitHub — version control, collaboration</li>
-</ul>
-
-
-<p><strong>Human Languages</strong></p>
-<ul>
-<li>American Sign Language — Fluent</li>
-<li>Spanish — Conversational/Academic</li>
-<li>Vietnamese — Beginner</li>
-</ul>
-</div>
-<br>
-
-	  <!--
-    -->
-	  <br>
-    <div class="Certifications/Licenses">
-      <h2 class="CVh2">Certifications/Licenses</h2>
+    <div class="experienceItem">
+      <p class="CVitemTitle"><strong>Graduate Researcher</strong>, University of Southern Maine, <span class="dates">2023 – Present</span></p>
       <ul>
-        <li>New Hampshire Interpreter Classification System, Licensed, current</li>
-        <li>NIC Written, Passed May ‘15</li>
-        <li>EIPA Written, Passed Nov ’14</li>
-        <li>EIPA Performance, June ’16 (3.5)</li>
-        <li>SSP for duel sensory impairment (Jan ’16)</li>
-        <li>TESOL Certified by World Learning SIT</li>
-        <li>CRLA Tutor Training Program: Certified Tutor</li>
+        <li>Conduct research in computational pathology, applying deep learning and computer vision to microscopy datasets.</li>
+        <li>Co-authored peer-reviewed publications at CLEF 2023 and FMLDS 2025, focusing on dataset creation, neural architectures, and model interpretability.</li>
+        <li>Developed reproducible pipelines in PyTorch, integrated CBAM modules into CNNs, and evaluated models with embedding-based metrics.</li>
       </ul>
     </div>
+
+    <div class="experienceItem">
+      <p class="CVitemTitle"><strong>Stay-at-Home Parent</strong>, Fletcher/Nghiem Family, <span class="dates">October 2020 – Present</span></p>
+      <ul>
+        <li>Balanced caregiving responsibilities with graduate-level coursework and research productivity.</li>
+        <li>Built strong organizational, multitasking, and systems-level time management skills applicable to academic and professional projects.</li>
+      </ul>
+    </div>
+
+    <div class="experienceItem">
+      <p class="CVitemTitle"><strong>Staff Interpreter</strong>, Pine Tree Society Interpreting Services, <span class="dates">March 2017 – October 2020</span></p>
+      <ul>
+        <li>Facilitated communication across diverse professional, medical, and educational contexts using accessible and jargon-free language.</li>
+        <li>Designed and delivered workshops preparing interpreters for national certification exams.</li>
+        <li>Collaborated with teams in high-stakes, multi-stage interpreting assignments, including medical and surgical settings.</li>
+      </ul>
+    </div>
+
+    <div class="experienceItem">
+      <p class="CVitemTitle"><strong>Freelance American Sign Language Interpreter</strong>, <span class="dates">July 2015 – March 2017</span></p>
+      <ul>
+        <li>Contracted with multiple agencies across Maine to interpret in varied community and professional settings.</li>
+        <li>Maintained compliance with the NAD-RID Code of Professional Conduct.</li>
+      </ul>
+    </div>
+
+    <div class="experienceItem">
+      <p class="CVitemTitle"><strong>Recording Secretary</strong>, Maine Registry of Interpreters for the Deaf, <span class="dates">July 2015 – July 2017</span></p>
+      <ul>
+        <li>Managed organizational information systems using G Suite tools; provided training for diverse board members.</li>
+        <li>Contributed to workshop planning, offering continuing education for the interpreting and Deaf communities.</li>
+      </ul>
+    </div>
+
+    <div class="experienceItem">
+      <p class="CVitemTitle"><strong>Disability Rights Advocate</strong>, Disability Rights Maine Deaf Services, <span class="dates">April 2016 – June 2016</span></p>
+      <ul>
+        <li>Temporary role covering for an advocate on maternity leave; supported Deaf clients facing discrimination and systemic barriers in employment and social services.</li>
+      </ul>
+    </div>
+
+    <div class="experienceItem">
+      <p class="CVitemTitle"><strong>Direct Support Professional</strong>, Goodwill Industries NNE, <span class="dates">July 2014 – November 2016</span></p>
+      <ul>
+        <li>Supported daily living and personal development for Deaf adults with intellectual disabilities.</li>
+      </ul>
+    </div>
+
+    <div class="experienceItem">
+      <p class="CVitemTitle"><strong>Certified Tutor</strong>, University of Southern Maine, <span class="dates">January 2012 – May 2014</span></p>
+      <ul>
+        <li>Tutored English and Linguistics for multilingual students, refugees, and international scholars.</li>
+      </ul>
+    </div>
+  </div>
+  <br>
+
+  <!-- Skills & Languages -->
+  <div class="languages">
+    <h2 class="CVh2">Skills & Languages</h2>
+    <p>Proficient in programming, data science tools, and multilingual communication.</p>
     <br>
-    <div class="CareerDevelopment">
-      <h2 class="CVh2">Career Development</h2>
-      <ul>
-        <li>CALI Atypical Language Among Diverse Populations (1CEU) remote 2021</li>
-        <li>CALI An Introduction to Atypical Language: Contributing Factors (1 CEU) remote 2021</li>
-        <li>RI thing at brown...</li>
-        <li>Practitioner Tune-Up: Tools for Work Analysis and Reflective Practice (2.1 CEU) MA 2017</li>
-        <li>ASL Immersion Weekend (1.3 CEU) ME 2016</li>
-        <li>Foundations of Interpreting V/VI (2 CEU) ME 2016</li>
-        <li>Trends in Working with the Deaf Blind (1 CEU) ME 2015</li>
-        <li>Foundations of Interpreting III/IV (2 CEU) ME 2015</li>
-        <li>Foundations of Interpreting II (1.2 CEU) ME 2014</li>
-        <li>Foundations of Interpreting I (1.2 CEU) ME 2014</li>
-        <li>ASL and Spanish Immersion Program (2.675 CEU) PR 2013</li>
-      </ul>
-    </div>
+    <p><strong>Programming & Data</strong></p>
+    <ul>
+      <li>Python — Pandas, NumPy, PyTorch, scikit-learn, Matplotlib, Seaborn</li>
+      <li>SQL & SQLite — schema design, queries, optimization</li>
+      <li>Java — object-oriented programming and algorithms</li>
+      <li>JavaScript, HTML/CSS — web development basics</li>
+      <li>Regex, Bash — automation, scripting, data preprocessing</li>
+      <li>Git/GitHub — version control, collaboration</li>
+    </ul>
+
+    <p><strong>Human Languages</strong></p>
+    <ul>
+      <li>American Sign Language — Fluent</li>
+      <li>Spanish — Conversational/Academic</li>
+      <li>Vietnamese — Beginner</li>
+    </ul>
   </div>
+  <br>
+
+  <!-- Certifications -->
+  <div class="Certifications/Licenses">
+    <h2 class="CVh2">Certifications/Licenses</h2>
+    <ul>
+      <li>New Hampshire Interpreter Classification System, Licensed, current</li>
+      <li>NIC Written, Passed May ‘15</li>
+      <li>EIPA Written, Passed Nov ’14</li>
+      <li>EIPA Performance, June ’16 (3.5)</li>
+      <li>SSP for duel sensory impairment (Jan ’16)</li>
+      <li>TESOL Certified by World Learning SIT</li>
+      <li>CRLA Tutor Training Program: Certified Tutor</li>
+    </ul>
+  </div>
+  <br>
+
+  <!-- Career Development -->
+  <div class="CareerDevelopment">
+    <h2 class="CVh2">Career Development</h2>
+    <ul>
+      <li>CALI Atypical Language Among Diverse Populations (1CEU) remote 2021</li>
+      <li>CALI An Introduction to Atypical Language: Contributing Factors (1 CEU) remote 2021</li>
+      <li>RI thing at brown...</li>
+      <li>Practitioner Tune-Up: Tools for Work Analysis and Reflective Practice (2.1 CEU) MA 2017</li>
+      <li>ASL Immersion Weekend (1.3 CEU) ME 2016</li>
+      <li>Foundations of Interpreting V/VI (2 CEU) ME 2016</li>
+      <li>Trends in Working with the Deaf Blind (1 CEU) ME 2015</li>
+      <li>Foundations of Interpreting III/IV (2 CEU) ME 2015</li>
+      <li>Foundations of Interpreting II (1.2 CEU) ME 2014</li>
+      <li>Foundations of Interpreting I (1.2 CEU) ME 2014</li>
+      <li>ASL and Spanish Immersion Program (2.675 CEU) PR 2013</li>
+    </ul>
+  </div>
+</div>
