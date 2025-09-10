@@ -103,6 +103,7 @@ dd {
   margin-left: 0;
 }
 
+/* OLD VERSION (commented out)
 @media (min-width: 768px) {
   .dl-horizontal dt {
     float: left;
@@ -124,12 +125,20 @@ dd {
   .dl-horizontal dd:after {
     clear: both;
   }
-  .dl-horizontal dd:before,
-  .dl-horizontal dd:after {
-    display: table;
-    content: " ";
+}
+*/
+
+/* NEW VERSION — allows project titles to wrap cleanly */
+@media (min-width: 768px) {
+  .dl-horizontal dt {
+    float: none;         /* no forced left column */
+    width: auto;         /* titles size naturally */
+    text-align: left;    /* align to the left */
+    white-space: normal; /* allow multi-line wrapping */
+    overflow: visible;   /* don’t cut content */
+    text-overflow: clip; /* no ellipsis */
   }
-  .dl-horizontal dd:after {
-    clear: both;
+  .dl-horizontal dd {
+    margin-left: 0;      /* align descriptions under titles */
   }
 }
