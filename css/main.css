@@ -77,10 +77,10 @@ ul.posts li {
 
 /* CV page styling */
 .CVh2 {
-  font-size: 2.4em;   /* larger than before */
+  font-size: 2.4em;   /* slightly larger than before */
   font-weight: bold;  /* stronger emphasis */
   text-decoration: none;
-  color: #333;        /* darker gray for better contrast */
+  color: #808080;     /* original gray color restored */
   margin-top: 1.2em;
   margin-bottom: 0.6em;
 }
