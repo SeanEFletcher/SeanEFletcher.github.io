@@ -1,35 +1,33 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>{{ page.title }}</title>
-		<link rel="stylesheet" type="text/css" href="../css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-			<!--
-	        	<li><a href="/about">About</a></li>
-			-->
-        		<li><a href="/cv">CV</a></li>
-			<div class="dropdown">
-				<li>Projects</li>
-				<div class="dropdown-content">
-					<a href="/haiku">Haiku Generator</a>
-					<a href="/syllable">Syllable Counter</a>
-				</div>
-			</div>
-    		</ul>
-		</nav>
-		<div class="container">
-    
-    {{ content }}
-      
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:sean@seanedwardfletcher.com">email me</a></li>
-			</ul>
-		</footer>
-	</body>
+  <head>
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <!--
+        <li><a href="/about">About</a></li>
+        -->
+        <li><a href="/cv">CV</a></li>
+        <li class="dropdown">
+          <a href="/projects">Projects</a>
+          <div class="dropdown-content">
+            <a href="/haiku">Haiku Generator</a>
+            <a href="/syllable">Syllable Counter</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <div class="container">
+      {{ content }}
+    </div><!-- /.container -->
+    <footer>
+      <ul>
+        <li><a href="mailto:sean@seanedwardfletcher.com">email me</a></li>
+      </ul>
+    </footer>
+  </body>
 </html>
