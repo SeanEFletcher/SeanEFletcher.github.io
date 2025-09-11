@@ -97,6 +97,12 @@ ul.posts li {
   color: #333;
 }
 
+.small-paren {
+  font-size: 0.85em;   /* smaller text */
+  color: #555;         /* optional: softer gray to de-emphasize */
+}
+
+
 .project ul {
   margin-left: 2em;
   font-size: 1.2em;
